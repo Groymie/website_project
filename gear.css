@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+.navigation {
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(149, 75, 192);
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.splash {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    background-color: aqua;
+    opacity: 0.7;
+}
+
+.splash img {
+    width: 100%;
+    z-index: -1; 
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    color: white;
+    font-size: 300%;
+}
+
+.sword_products, .armor_products {
+    display: flex;
+    background-color: black;
+}
+
+.sword {
+    height: 250px;
+    width: 350px;
+    padding-right: 10px;
+}
+
+.sword img {
+    width: 100%;
+    height: 100%;
+}
+
+.armor {
+    height: 300px;
+    width: 300px;
+}
+
+.armor img {
+    width: 100%;
+    height: 100%;
+}
